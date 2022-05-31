@@ -1,0 +1,60 @@
+/* Change Brand Name font */
+
+.navbar-brand{
+font-family: Playfair Display, serif;
+font-size: 2em;
+font-weight: bold;
+}
+/* Change Navigation color */
+.navbar #myMenu .custom-nav .nav-item a{
+    color: #ecf0f1;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color: #34495e;
+}
+/* Make header image responsive */
+.back-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    border-radius: 0px;
+    margin-top: 74px;
+}
+/*  header image subtitle */
+.font-italic{
+    font-size: 24px;
+    font-style: italic;
+}
+/* margin for welcome to OSME */
+.mainheading{
+    margin-top: 50px;
+}
+
+/*  */
+@media only screen and (max-width:600px){
+.myclass{
+    margin-top:300px;
+    text-align: center;
+}
+}
+.fi-color{
+    /* color: #c23616;
+    */
+    color:#dc3545;
+}
+.fi-color:hover {
+    color: #c23616;
+    /*
+    color:#dc3545; */
+}
+a{
+  color: black;  
+}
+.active{
+  color:white;
+  background-color: #dc3545;  
+}
+a:hover{
+    color: #f265f2;
+}
